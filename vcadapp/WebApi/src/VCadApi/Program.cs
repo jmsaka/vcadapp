@@ -29,6 +29,15 @@ public static class Program
         // Add services to the container.
         builder.Services.AddAuthorization();
 
+        builder.Services.AddCors(options =>
+        {
+            options.AddPolicy("AllowFrontend", policy =>
+            {
+                policy.WithOrigins("http://localhost:3000")
+                      .AllowAnyHeader()
+                      .AllowAnyMethod();
+            });
+        });
 
         var app = builder.Build();
 
@@ -40,6 +49,8 @@ public static class Program
         }
 
         app.UseHttpsRedirection();
+
+        app.UseCors("AllowFrontend");
 
         app.UseAuthorization();
 
