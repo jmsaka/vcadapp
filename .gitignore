@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/vcadapp/WebForms/src/.vs
+/vcadapp/WebForms/src/bin
+/vcadapp/WebForms/src/obj
+/vcadapp/WebForms/src/packages
