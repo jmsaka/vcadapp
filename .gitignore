@@ -19,3 +19,15 @@
 /vcadapp/WebForms/src/packages/Modernizr.2.8.3
 /vcadapp/WebForms/src/packages/Newtonsoft.Json.13.0.3
 /vcadapp/WebForms/src/packages/WebGrease.1.6.0
+/vcadapp/WebForms/src/packages
+/vcadapp/WebApi/src/VCadApi.Infrastructure/bin/Debug/net8.0
+/vcadapp/WebApi/src/VCadApi.Infrastructure/obj
+/vcadapp/WebApi/src/VCadApi.Domain/bin/Debug/net8.0
+/vcadapp/WebApi/src/VCadApi.Domain/obj
+/vcadapp/WebApi/src/VCadApi.Application/bin/Debug/net8.0
+/vcadapp/WebApi/src/VCadApi.Application/obj
+/vcadapp/WebApi/src/VCadApi/bin/Debug/net8.0
+/vcadapp/WebApi/src/VCadApi/obj
+/vcadapp/WebApi/src/VCadApi/VCadApi.csproj.user
+/vcadapp/WebApi/src/VCadApi/.vs/VCadApi
+/vcadapp/WebApi/.vs
