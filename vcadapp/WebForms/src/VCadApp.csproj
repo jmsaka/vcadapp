@@ -249,11 +249,15 @@
     <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>
   <PropertyGroup>
-    <PreBuildEvent>REM Comando para garantir a restauração de pacotes NuGet, incluindo o Roslyn
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>REM Comando para garantir a restauração de pacotes NuGet, incluindo o Roslyn
         IF NOT EXIST "$(SolutionDir)packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1" (
             ECHO Restoring NuGet packages...
             "$(SolutionDir).nuget\nuget.exe" restore "$(SolutionDir)VcadApp.sln"
-        )</PreBuildEvent>
+        )</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
