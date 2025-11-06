@@ -1,0 +1,15 @@
+global using FluentValidation;
+global using MediatR;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using NLog.Extensions.Logging;
+global using VCadApi.Application.Commands.Person;
+global using VCadApi.Application.Profiles.Person;
+global using VCadApi.Application.Queries.Person;
+global using VCadApi.Application.Validators;
+global using VCadApi.Controllers.Base;
+global using VCadApi.Domain.Contracts;
+global using VCadApi.Domain.Dtos;
+global using VCadApi.Domain.Interfaces;
+global using VCadApi.Infrastructure.Data.Data;
+global using VCadApi.Infrastructure.Data.Repositories;
