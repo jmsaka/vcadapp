@@ -1,0 +1,21 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/vcadapp/WebForms/src/.vs
+/vcadapp/WebForms/src/bin
+/vcadapp/WebForms/src/obj
+/vcadapp/WebForms/src/packages/Antlr.3.5.0.2
+/vcadapp/WebForms/src/packages/bootstrap.5.2.3
+/vcadapp/WebForms/src/packages/jQuery.3.7.0
+/vcadapp/WebForms/src/packages/Microsoft.AspNet.FriendlyUrls.1.0.2
+/vcadapp/WebForms/src/packages/Microsoft.AspNet.FriendlyUrls.Core.1.0.2
+/vcadapp/WebForms/src/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0
+/vcadapp/WebForms/src/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0
+/vcadapp/WebForms/src/packages/Microsoft.AspNet.Web.Optimization.1.1.3
+/vcadapp/WebForms/src/packages/Microsoft.AspNet.Web.Optimization.WebForms.1.1.3
+/vcadapp/WebForms/src/packages/Microsoft.Web.Infrastructure.2.0.0
+/vcadapp/WebForms/src/packages/Modernizr.2.8.3
+/vcadapp/WebForms/src/packages/Newtonsoft.Json.13.0.3
+/vcadapp/WebForms/src/packages/WebGrease.1.6.0

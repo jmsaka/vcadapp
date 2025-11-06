@@ -1,0 +1,127 @@
+﻿/* Estilo limpo e amigÃ¡vel para o formulÃ¡rio */
+body {
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    margin: 0;
+    padding: 40px;
+    color: #333;
+}
+
+.centered-card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: calc(100vh - 80px);
+}
+
+.card {
+    background: #fff;
+    width: 720px;
+    max-width: 95%;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(32, 32, 32, 0.12);
+    padding: 28px;
+    box-sizing: border-box;
+}
+
+.card h2 {
+    margin: 0 0 12px 0;
+    color: #263238;
+}
+
+.form-row {
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row label {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #455a64;
+}
+
+.input {
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #cfd8dc;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.input:focus {
+    border-color: #42a5f5;
+    box-shadow: 0 0 0 3px rgba(66,165,245,0.08);
+}
+
+.form-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.btn-primary {
+    background: linear-gradient(180deg,#1976d2,#1565c0);
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn-primary:hover {
+    opacity: 0.95;
+}
+
+.validation-summary {
+    color: #b71c1c;
+    margin-bottom: 8px;
+}
+
+.validator {
+    color: #b71c1c;
+    font-size: 13px;
+}
+
+.success-message {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 18px 0;
+}
+
+.grid {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+}
+
+.grid th, .grid td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+.grid th {
+    text-align: left;
+    background: #fafafa;
+    color: #37474f;
+}
+
+.centered-container {
+    min-height: 100vh; /* garante ocupar toda a viewport */
+    display: flex;
+    justify-content: center; /* centraliza horizontal */
+    align-items: flex-start; /* permite que o conteúdo cresça */
+    padding: 40px;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    overflow-y: auto; /* adiciona barra de rolagem se necessário */
+}
